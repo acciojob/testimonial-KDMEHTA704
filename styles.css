@@ -1,5 +1,4 @@
 /*  your css code here. If applicable */
-/* General styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,7 +6,6 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Testimonials section styling */
 .testimonials {
   max-width: 800px;
   margin: 20px auto;
@@ -17,7 +15,6 @@ body {
   border-radius: 5px;
 }
 
-/* Individual testimonial styling */
 .testimonial {
   margin-bottom: 20px;
   padding: 15px;
@@ -30,14 +27,13 @@ body {
   margin-bottom: 0;
 }
 
-/* Text styling for testimonials */
+
 .testimonial p {
   margin: 0 0 10px;
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* Styling for author's name */
 .testimonial span {
   font-style: italic;
   font-weight: bold;
