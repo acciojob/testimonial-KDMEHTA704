@@ -1,4 +1,4 @@
-/*  your css code here. If applicable */
+/* Reset and styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,38 +6,37 @@ body {
   background-color: #f9f9f9;
 }
 
-.testimonials {
+/* Parent container styling */
+.parent-container {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 50px auto;
   padding: 20px;
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Individual testimonials styling */
 .testimonial {
-  margin-bottom: 20px;
-  padding: 15px;
   border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
   border-radius: 5px;
   background-color: #f4f4f4;
 }
 
-.testimonial:last-child {
-  margin-bottom: 0;
-}
-
-
-.testimonial p {
-  margin: 0 0 10px;
+/* Testimonial text */
+.testimonial-text {
   font-size: 16px;
   line-height: 1.5;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-.testimonial span {
+/* Author text */
+.testimonial-author {
+  font-size: 14px;
   font-style: italic;
-  font-weight: bold;
-  color: #555;
-  display: block;
+  color: #777;
   text-align: right;
 }
